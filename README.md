@@ -7,7 +7,7 @@
 <h2>Process Mining on Trading Systems - Research Project Repository</h2>
 <h5><i>Welcome to our repository! Here you will find software tools and resources related to our research project!</i></h5>
 <i>Each of the following sections describe the tools and resources in the repository folders.</i><br>
-<i>You may either download the source code of our tools and compile, or download directly the executable tools as jar files.</i><br>
+<i>You may either download the source code of our tools and compile, or to download directly the executable tools as jar files.</i><br>
 <hr>
 <b>Project Researcher:</b> <a href="https://www.hse.ru/en/staff/jcarrasquel">Julio C. Carrasquel</a><br>
 For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jcarrasquel@hse.ru</a><br>
