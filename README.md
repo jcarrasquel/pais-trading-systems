@@ -10,9 +10,8 @@
 <hr>
 <b>Project Researcher:</b> <a href="https://www.hse.ru/en/staff/jcarrasquel">Julio C. Carrasquel</a><br>
 For contact, please send an email at: jcarrasquel@hse.ru
-</body>
-
 National Research University Higher School of Economics<br>
 Laboratory of Process-Aware Information Systems (PAIS Lab). Moscow, Russia.
-
+<hr>
+</body>
 </html> 
