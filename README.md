@@ -16,7 +16,8 @@ For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jca
 <hr>
 <i>Each of the following sections describe the tools and resources in the repository folders.</i> 
 <i>For some tools, you may either download the source code and compile, or to download directly the executables as jar files.</i><br>
-<b>Index</b>
+
+<b>Index:</b>
 <ul>
   <li><a href="#pre-processing"><b>Pre-processing</b><a></li>
   <li><a href="#simulation"><b>Simulation</b><a></li>
