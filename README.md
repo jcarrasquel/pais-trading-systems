@@ -17,15 +17,15 @@ For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jca
 <i>Each of the following sections describe the tools and resources in the repository folders.</i> 
 <i>For some tools, you may either download the source code and compile, or to download directly the executables as jar files.</i><br>
 
-<b>Index:</b>
-<ul>
+<b>Index:</b><br>
+<ol>
   <li><a href="#pre-processing"><b>Pre-processing</b><a></li>
   <li><a href="#simulation"><b>Simulation</b><a></li>
   <li><a href="#event_logs"><b>Event Logs</b><a></li>
   <li><a href="#models"><b>Models</b><a></li>
-</ul>
+</ol>
 <hr>
-<h3 name="pre-processing"><i>Pre-processing</i></h3>
+<h3 name="pre-processing"><i>1. Pre-processing</i></h3>
 We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:
 <ul>
   <br>
@@ -37,7 +37,7 @@ We have implemented two pre-processing tools for extracting event logs for proce
   
 In the folder <b>event logs</b> you also can find examples of the event logs than these pre-processing tools generate.
 <hr>
-<h3 name="simulation"><i>Simulation</i></h3>
+<h3 name="simulation"><i>2. Simulation</i></h3>
 <ul>
   <br>
   <li> <b>orderbook-interface:</b> The order book interface is a prototype for replay and simulation support, providing a convenient visualization of the order book states. It works in two modes. It may either read an order book event log, i.e, generated with the tool eventlog-gen-orderbooks, or it may read events in stream from a socket connection given some host and port of the other pair. In the following we present two usage examples for executing this tool:
@@ -50,7 +50,9 @@ In the folder <b>event logs</b> you also can find examples of the event logs tha
   </li>
 </ul>
 <hr>
-<h3 name="models"><i>Models</i></h3>
+<h3 name="event_logs"><i>3. Event_Logs</i></h3>
+In this folder you will find examples of events logs generated using the eventlog-gen-orders and eventlog-gen-orderbooks pre-processing tools.
+<h3 name="models"><i>4. Models</i></h3>
 In this sectiom you will have formal models of the system that aim to describe the functioning of the trading system components. Our research goal is to relate these models with the event logs (which describe the system observed behavior) in order to analyze possible deviations of the system.
 <ul>
   <br>
