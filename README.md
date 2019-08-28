@@ -13,6 +13,7 @@
 <p><h6>National Research University Higher School of Economics<br>
 Laboratory of Process-Aware Information Systems (PAIS Lab). Moscow, Russia.</h6></p>
 For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jcarrasquel@hse.ru</a><br>
+<br>
 <i>Each of the following sections describe the tools and resources in the repository folders.</i><br>
 <i>You may either download the tools source code of and compile, or to download directly the executable tools as jar files.</i><br>
 <hr>
