@@ -1,0 +1,15 @@
+CASE, ORDER_BOOK, EVENT_NUMBER, ACTIVITY, TIMESTAMP, O1_ID, O1_STATE, O1_SIZE, O1_PRICE, O1_SIDE,  [O2_ID], [O2_STATE], [O2_SIZE], [O2_PRICE], [O2_SIDE], [TRADE_ID]
+1,1111036,1,submit,18-02-2019T09:13:07.536000,1,-,100,9,buy,,,,,,
+1,1111036,2,new,18-02-2019T09:13:07.537557,1,new,100,9,buy,,,,,,
+1,1111036,3,submit,18-02-2019T09:13:07.544000,2,-,100,8.9,buy,,,,,,
+1,1111036,4,new,18-02-2019T09:13:07.545718,2,new,100,8.9,buy,,,,,,
+1,1111036,5,submit,18-02-2019T09:13:07.565000,3,-,100,8.57,buy,,,,,,
+1,1111036,6,new,18-02-2019T09:13:07.566645,3,new,100,8.57,buy,,,,,,
+1,1111036,7,submit,18-02-2019T09:13:07.572000,4,-,100,8.45,buy,,,,,,
+1,1111036,8,new,18-02-2019T09:13:07.573880,4,new,100,8.45,buy,,,,,,
+1,1111036,9,submit,18-02-2019T09:13:07.579000,5,-,400,market,sell,,,,,,
+1,1111036,10,trade,18-02-2019T09:13:07.581175,5,partially filled,300,market,sell,1,filled,0,market,buy,0RLPUT8MVE
+1,1111036,11,trade,18-02-2019T09:13:07.581175,5,partially filled,200,market,sell,2,filled,0,market,buy,0RLPUT8MVF
+1,1111036,12,trade,18-02-2019T09:13:07.581175,5,partially filled,100,market,sell,3,filled,0,market,buy,0RLPUT8MWG
+1,1111036,13,cancel,18-02-2019T09:13:11.236553,4,canceled,0,8.45,buy,,,,,,
+1,1111036,14,cancel,18-02-2019T09:13:11.236553,5,canceled,0,market,sell,,,,,,
