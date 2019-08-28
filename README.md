@@ -15,7 +15,14 @@ Laboratory of Process-Aware Information Systems (PAIS Lab). Moscow, Russia.</h6>
 For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jcarrasquel@hse.ru</a><br>
 <br>
 <i>Each of the following sections describe the tools and resources in the repository folders.</i><br>
-<i>You may either download the tools source code of and compile, or to download directly the executable tools as jar files.</i><br>
+<i>For some tools, you may either download the source code and compile, or to download directly the executables as jar files.</i><br>
+<b>Index</b>
+<ul>
+  <li href="#pre-processing">Pre-processing</li>
+  <li>Simulation</li>
+  <li>Event_Logs</li>
+  <li>Models</li>
+</ul>
 <hr>
 <h3><i>Pre-processing</i></h3>
 We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:
