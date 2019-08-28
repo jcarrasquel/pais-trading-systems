@@ -6,8 +6,6 @@
 <body>
 <h2>Process Mining on Trading Systems - Research Project Repository</h2>
 <h5><i>Welcome to our repository! Here you will find software tools and resources related to our research project!</i></h5>
-<i>Each of the following sections describe the tools and resources in the repository folders.</i><br>
-<i>You may either download the source code of our tools and compile, or to download directly the executable tools as jar files.</i><br>
 <hr>
 <b>Project Researcher:</b> <a href="https://www.hse.ru/en/staff/jcarrasquel">Julio Cesar Carrasquel</a> (Researcher and PhD Candidate in Computer Science)<br>
 <br>
@@ -16,6 +14,8 @@
 Laboratory of Process-Aware Information Systems (PAIS Lab). Moscow, Russia.</h6></p>
 <br>
 For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jcarrasquel@hse.ru</a><br>
+<i>Each of the following sections describe the tools and resources in the repository folders.</i><br>
+<i>You may either download the source code of our tools and compile, or to download directly the executable tools as jar files.</i><br>
 <hr>
 <h3><i>Pre-processing</i></h3>
 We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:
