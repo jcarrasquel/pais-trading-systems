@@ -44,7 +44,6 @@ In the folder <b>event logs</b> you also can find examples of the event logs tha
     <br>
     <ul>
       <li><i>File mode: java -jar orderbook-interface.jar -f order-book-eventlog.csv </i></li>
-      <br>
       <li><i>Socket mode: java -jar orderbook-interface.jar -s host_ipaddress port_number </i></li>
     </ul>
   </li>
@@ -52,6 +51,7 @@ In the folder <b>event logs</b> you also can find examples of the event logs tha
 <hr>
 <h3 name="event_logs"><i>3. Event_Logs</i></h3>
 In this folder you will find examples of events logs generated using the eventlog-gen-orders and eventlog-gen-orderbooks pre-processing tools.
+<hr>
 <h3 name="models"><i>4. Models</i></h3>
 In this sectiom you will have formal models of the system that aim to describe the functioning of the trading system components. Our research goal is to relate these models with the event logs (which describe the system observed behavior) in order to analyze possible deviations of the system.
 <ul>
@@ -59,5 +59,4 @@ In this sectiom you will have formal models of the system that aim to describe t
   <li> <b>CPN:</b> This folder contains coloured Petri net models designed with CPN Tools. 
 </ul>
 </body>
-
 </html>
