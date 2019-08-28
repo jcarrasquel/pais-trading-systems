@@ -49,7 +49,7 @@ In the folder <b>event logs</b> you also can find examples of the event logs tha
   </li>
 </ul>
 <hr>
-<h3 name="event_logs"><i>3. Event_Logs</i></h3>
+<h3 name="event_logs"><i>3. Event Logs</i></h3>
 In this folder you will find examples of events logs generated using the eventlog-gen-orders and eventlog-gen-orderbooks pre-processing tools.
 <hr>
 <h3 name="models"><i>4. Models</i></h3>
