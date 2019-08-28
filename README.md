@@ -21,9 +21,9 @@ For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jca
 We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:
 <ul>
   <br>
-  <li><b>eventlog-gen-orders:</b> Generates an event log from the FIX messages such that each case is the observed trace for an order. In the current version, all orders in this event log are trading the same financial security. As input it takes the file path for the captured pcap file of FIX messages:<br>
+  <li><b>eventlog-gen-orders:</b> It generates an event log from the FIX messages such that each case is the observed trace for an order. In the current version, all orders in this event log are trading the same financial security. As input it takes the file path for the captured pcap file of FIX messages:<br>
     <i>usage example: java -jar eventlog-gen fix_messages.pcap securityId </i></li> <br>
-  <li><b>eventlog-gen-orderbooks:</b> Generates an event log from the FIX messages such that each case is the trading session in an order book. Each order book is associated with the trading of a single financial security. The program takes as input it takes the file path for the captured pcap file of FIX messages, and a file containing the list of financial securities (one per line)<br>
+  <li><b>eventlog-gen-orderbooks:</b> It generates an event log from the FIX messages such that each case is the trading session in an order book. Each order book is associated with the trading of a single financial security. The program takes as input it takes the file path for the captured pcap file of FIX messages, and a file containing the list of financial securities (one per line)<br>
     <i>usage example: java -jar eventlog-gen fix_messages.pcap security_list.txt </i></li> 
 </ul>
   
@@ -32,7 +32,7 @@ In the folder <b>event logs</b> you also can find examples of the event logs tha
 <h3><i>Simulation</i></h3>
 <ul>
   <br>
-  <li> <b>orderbook-interface:</b> the order book interface is a prototype for replay and simulation support, providing a convenient visualization of the order book states. It works in two modes. It may either read an order book event log, i.e, generated with the tool eventlog-gen-orderbooks, or it may read events in stream from a socket connection given some host and port of the other pair. In the following we present two usage examples for executing this tool:
+  <li> <b>orderbook-interface:</b> The order book interface is a prototype for replay and simulation support, providing a convenient visualization of the order book states. It works in two modes. It may either read an order book event log, i.e, generated with the tool eventlog-gen-orderbooks, or it may read events in stream from a socket connection given some host and port of the other pair. In the following we present two usage examples for executing this tool:
     <br>
     <ul>
       <li><i>File mode: java -jar orderbook-interface.jar -f order-book-eventlog.csv </i></li>
@@ -41,5 +41,13 @@ In the folder <b>event logs</b> you also can find examples of the event logs tha
     </ul>
   </li>
 </ul>
+<hr>
+<h3><i>Models</i></h3>
+In this sectiom you will have formal models of the system that aim to describe the functioning of the trading system components. Our research goal is to relate these models with the event logs (which describe the system observed behavior) in order to analyze possible deviations of the system.
+<ul>
+  <br>
+  <li> <b>CPN:</b> This folder contains coloured Petri net models designed with CPN Tools. 
+</ul>
 </body>
+
 </html>
