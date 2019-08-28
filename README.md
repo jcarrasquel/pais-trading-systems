@@ -11,7 +11,7 @@
 <hr>
 <b>Project Researcher:</b> <a href="https://www.hse.ru/en/staff/jcarrasquel">Julio C. Carrasquel</a><br>
 For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jcarrasquel@hse.ru</a><br>
-  
+<br>
 <p><img src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/logo-hse.png" alt="PAIS" width="27" height="37"> <img src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/logo-pais.png" alt="PAIS" width="37" height="37">
 <h6>National Research University Higher School of Economics<br>
 Laboratory of Process-Aware Information Systems (PAIS Lab). Moscow, Russia.</h6></p>
