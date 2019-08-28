@@ -4,16 +4,16 @@
 <meta charset="UTF-8">
 </head>
 <body>
-<p><img src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/logo-hse.png" alt="PAIS" width="40" height="50"> <img src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/logo-pais.png" alt="PAIS" width="50" height="50"></p>
-<h3>Process Mining on Trading Systems - Research Project Repository</h3>
-<h5><i>Welcome to our repository! Here you will find software tools and resources related to our project.</i></h5>
-<i>Each of the following sections describe the tools and resources in each of the repository folders.</i><br>
+<h2>Process Mining on Trading Systems - Research Project Repository</h2>
+<h5><i>Welcome to our repository! Here you will find software tools and resources related to our research project!</i></h5>
+<i>Each of the following sections describe the tools and resources in the repository folders.</i><br>
 <i>You may either download the source code of our tools and compile, or download directly the executable tools as jar files.</i><br>
 <hr>
 <b>Project Researcher:</b> <a href="https://www.hse.ru/en/staff/jcarrasquel">Julio C. Carrasquel</a><br>
-For contact, please send an email to: jcarrasquel@hse.ru<br>
-National Research University Higher School of Economics<br>
-Laboratory of Process-Aware Information Systems (PAIS Lab). Moscow, Russia.
+For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jcarrasquel@hse.ru</a><br>
+<p><img src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/logo-hse.png" alt="PAIS" width="27" height="37"> <img src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/logo-pais.png" alt="PAIS" width="37" height="37"><br>
+<h6>National Research University Higher School of Economics<br>
+Laboratory of Process-Aware Information Systems (PAIS Lab). Moscow, Russia.</h6></p>
 <hr>
 <h3><i>Pre-processing</i></h3>
 We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:
