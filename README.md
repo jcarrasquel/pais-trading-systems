@@ -53,7 +53,7 @@ In the folder <b>event logs</b> you also can find examples of the event logs tha
 In this folder you will find examples of events logs generated using the eventlog-gen-orders and eventlog-gen-orderbooks pre-processing tools.
 <hr>
 <h3 name="models"><i>4. Models</i></h3>
-In this sectiom you will have formal models of the system that aim to describe the functioning of the trading system components. Our research goal is to relate these models with the event logs (which describe the system observed behavior) in order to analyze possible deviations of the system.
+In this section we store formal models of the system that aim to describe the functioning of the trading system components. Our research goal is to relate these models with the event logs (which describe the system observed behavior) in order to analyze possible deviations of the system.
 <ul>
   <br>
   <li> <b>CPN:</b> This folder contains coloured Petri net models designed with CPN Tools. 
