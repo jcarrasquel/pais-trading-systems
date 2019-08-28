@@ -18,13 +18,13 @@ For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jca
 <i>For some tools, you may either download the source code and compile, or to download directly the executables as jar files.</i><br>
 <b>Index</b>
 <ul>
-  <li href="#pre-processing">Pre-processing</li>
+  <li><a href="#pre-processing">Pre-processing<a></li>
   <li>Simulation</li>
   <li>Event_Logs</li>
   <li>Models</li>
 </ul>
 <hr>
-<h3><i>Pre-processing</i></h3>
+<h3 name="pre-processing"><i>Pre-processing</i></h3>
 We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:
 <ul>
   <br>
