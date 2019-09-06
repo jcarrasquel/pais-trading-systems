@@ -52,7 +52,7 @@ In the folder <b>event logs</b> you also can find examples of the event logs tha
 <h3 name="event_logs"><i>3. Event Logs</i></h3>
 In this folder you will find examples of events logs generated using the eventlog-gen-orders and eventlog-gen-orderbooks pre-processing tools.
 <hr>
-<h3 name="models"><i>4. Models</i></h3>
+<h3 name="models"><i>4. Models (Section pending to be added)</i></h3>
 In this section we store formal models of the system that aim to describe the functioning of the trading system components. Our research goal is to relate these models with the event logs (which describe the system observed behavior) in order to analyze possible deviations of the system.
 <ul>
   <br>
