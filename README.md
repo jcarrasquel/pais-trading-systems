@@ -38,6 +38,7 @@ We have implemented two pre-processing tools for extracting event logs for proce
     <br>
   <li><b>eventlog-orderbooks-directory:</b> It generates a <i>directory of order books</i> from the FIX messages. Specifically, it generates an output file in which each line denoting the identifier of the financial security being traded, the number of events processed related to the trading of such security, and the number of orders involved in the trading. We call it a directory of order books, since we assume a relationship 1:1 between a security and an order book. Notice that this is not an event log! However, the security identifiers given in this file can be used as input for the event log generators describe above. This program can be executed as follows:<br>
     <i><b>usage example:</b> java -jar eventlog-orderbooks-directory fix_messages.pcap</i></li> <br>
+    For now, this program captures order books whose submitted orders are either day limit or market orders.
 </ul>
   
 In the folder <b>event logs</b> you also can find examples of the event logs and other related output files than these pre-processing tools generate.
