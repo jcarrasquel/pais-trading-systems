@@ -7,7 +7,7 @@
 <h2>Process Mining on Trading Systems - Research Project Repository</h2>
 <h5><i>Welcome to our repository! Here you will find software tools and resources related to our research project!</i></h5>
 <hr>
-<b>Project Researcher:</b> <a href="https://www.hse.ru/en/staff/jcarrasquel">Julio Cesar Carrasquel</a> (Research Assistant| PhD Candidate)<br>
+<b>Project Researcher:</b> <a href="https://www.hse.ru/en/staff/jcarrasquel">Julio Cesar Carrasquel</a> (Research Assistant | PhD Candidate)<br>
 <br>
 <p><img src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/logo-hse.png" alt="PAIS" width="27" height="37"> <img src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/logo-pais.png" alt="PAIS" width="37" height="37"></p>
 <p><h6>National Research University Higher School of Economics<br>
