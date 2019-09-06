@@ -26,7 +26,7 @@ For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jca
 </ol>
 <hr>
 <h3 name="pre-processing"><i>1. Pre-processing</i></h3>
-We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:
+We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:<br>
 <ul>
   <br>
   <li><b>eventlog-gen-orders:</b> It generates an event log from the FIX messages such that each case is the observed trace for an order. In the current version, all orders in this event log are trading the same financial security. As input it takes the file path for the captured pcap file of FIX messages:<br>
