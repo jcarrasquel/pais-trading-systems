@@ -34,10 +34,10 @@ We have implemented two pre-processing tools for extracting event logs for proce
     <img alt="order_trace" src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/researchpage_order_trace.png" width="594" height="84"></li> </ul></li> <br>
   
   <li><b>eventlog-gen-orderbooks:</b> It generates an event log from the FIX messages such that each case is the trading session in an order book. Each order book is associated with the trading of a single financial security. The program takes as input it takes the file path for the captured pcap file of FIX messages, and a file containing the list of financial securities (one per line)<br>
-    <i><b>usage example:</b> java -jar eventlog-gen fix_messages.pcap security_list.txt </i><br>These kind of event logs may be replayed in the interface for replay and simulation described below.                                                                                              </li>
+     <ul><li><i><b>usage example:</b> java -jar eventlog-gen fix_messages.pcap security_list.txt </i><br>These kind of event logs may be replayed in the interface for replay and simulation described below.   </li> </ul>                                                                                           </li>
     <br>
   <li><b>eventlog-orderbooks-directory:</b> It generates a <i>directory of order books</i> from the FIX messages. Specifically, it generates an output file in which each line denoting the identifier of the financial security being traded, the number of events processed related to the trading of such security, and the number of orders involved in the trading. We call it a directory of order books, since we assume a relationship 1:1 between a security and an order book. Notice that this is not an event log! However, the security identifiers given in this file can be used as input for the event log generators describe above. This program can be executed as follows:<br>
-    <i><b>usage example:</b> java -jar eventlog-orderbooks-directory fix_messages.pcap</i></li>
+     <ul><li><i><b>usage example:</b> java -jar eventlog-orderbooks-directory fix_messages.pcap</i><</li> </ul>/li>
     For now, this program captures order books whose submitted orders are either day limit or market orders.<br>
 </ul>
   
