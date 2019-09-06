@@ -29,8 +29,10 @@ For contact, please send an email to: <a href = "mailto: jcarrasquel@hse.ru">jca
 We have implemented two pre-processing tools for extracting event logs for process mining from a capture file (in pcap format) of FIX messages; in this folder, you will find the following command-line programs:<br>
 <ul>
   <br>
-  <li><b>eventlog-gen-orders:</b> It generates an event log from the FIX messages such that each case is the observed trace for an order. In the current version, all orders in this event log are trading the same financial security. As input it takes the file path for the captured pcap file of FIX messages:<br>
-    <i><b>usage example:</b> java -jar eventlog-gen fix_messages.pcap securityId </i></li> <br>
+  <li><b>eventlog-gen-orders:</b> It generates an event log from the FIX messages such that each case is the observed trace for an order. In the current version, all orders in this event log are trading the same financial security. For using this program, it takes as input the file path for the captured pcap file of FIX messages:<br>
+    <i><b>usage example:</b> java -jar eventlog-gen fix_messages.pcap securityId </i><br> The generated event logs using this program can be synthesized into process models that describe the executed path of orders (see image below). The latter is just an example of the many possiblities for analyzing order behavior based on these event logs.<br>
+    <img alt="order_trace" src="https://raw.githubusercontent.com/jcarrasquel/pais-trading-systems/master-2/misc/researchpage_order_trace.png" width="594" height="84"></li> <br>
+  
   <li><b>eventlog-gen-orderbooks:</b> It generates an event log from the FIX messages such that each case is the trading session in an order book. Each order book is associated with the trading of a single financial security. The program takes as input it takes the file path for the captured pcap file of FIX messages, and a file containing the list of financial securities (one per line)<br>
     <i><b>usage example:</b> java -jar eventlog-gen fix_messages.pcap security_list.txt </i></li>
     <br>
